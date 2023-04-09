@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(orange,black);
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align-last: center;
+    text-decoration: overline underline;
+    text-decoration-style: solid;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    
+}
+.ajay{
+    width: 20%;
+    border-style: double;
+    min-height: 60vh;
+    border-radius: 50px;
+    background-image: linear-gradient(to top, yellow,red);
+    box-shadow: 6px 5px 4px black;
+    border-style: outset;   
+}
+input:hover{
+    background-color: chartreuse;
+    transform: translateY(-2px);    
+}
+input
+{
+    margin-bottom: 20px;
+    margin-top: 70px;
+    box-shadow: 2px 2px 2px blue;
+    border-radius: 70px; 
+    border-style: groove;
+    border-width: thick;
+    border-top-color: orange;
+    border-bottom-color: black;
+    padding: 7px 37px;
+    font-family: fantasy;
+    font-size: 15px;    
+}
+button
+{
+    padding: 10px 12px;
+    border-radius: 25px;
+    width:  50px;
+    margin: 2px;
+    border-style: groove;
+    border-width: thick;
+    border-top-color: orange;
+    border-bottom-color: black;
+    box-shadow: 2px 2px 2px black; 
+    font-family: fantasy;
+    font-size: 15px;
+}
+button:hover
+{
+    background-color: aqua;
+    cursor:pointer;
+    transform:translateY(-3px);
+}
+
